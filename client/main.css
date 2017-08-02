@@ -1,0 +1,68 @@
+body {
+	background: #fff;
+}
+
+.login {
+	background: white;
+	margin-top: 20%;
+	text-align: center;
+}
+
+.login > form {
+	border: 0.5mm solid #4990E2;
+	display: block;
+	font-family: 'Heebo', sans-serif;
+	height: 94mm;
+	margin: 0 auto;
+	padding: 8mm;
+	text-align: center;
+	width: 149mm;
+}
+
+.login > form > .title {
+	font-size: 25pt;
+	font-weight: 900;
+	letter-spacing: 1.15mm;
+	margin: 0 0 6mm 0;
+}
+
+.login > form > input {
+	box-sizing: border-box;
+	font-size: 24pt;
+	font-weight: 600;
+	padding: 3mm 4.5mm;
+	width: 109mm;
+}
+
+.login > form > input[type="text"] {
+	border: 0.5mm solid #4990E2;
+	color: #4A4A4A;
+}
+
+.login > form > input[type="submit"] {
+	background: #4990E2;
+	border: none;
+	color: #fff;
+	display: block;
+	margin: 8mm auto;
+}
+
+@media (max-width: 768px) {
+	.login > form {
+		border: 0.5mm solid #fff;
+		display: block;
+		height: 100%;
+		padding: 4mm 3mm;
+		width: 100%;
+	}
+	
+	.login > form > .title {
+		font-size: 23pt;
+		font-weight: 900;
+		letter-spacing: 1.15mm;
+	}
+	
+	.login > form > input {
+		width: 100%;
+	}
+}
